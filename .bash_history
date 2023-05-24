@@ -1,32 +1,3 @@
-cd ..
-ll
-rm -rf Bec3D
-ll
-module load git/2.9.5
-module list
-git clone git@github.com:DenMuj/Bec3D.git
-cd Bec3D/
-git init
-cd MojOutput/
-ll
-cat 637819.paradox.ipb.ac.rs.out
-rm *.err
-rm *.out
-ll
-qsub /home/denis/Bec3D/imag.pbs 
-cat imag3d-rms.txt
-cd bec3d/
-ll
-module load git/2.9.5 
-module avail
-module load gnu/9.3.0 
-make bec-gp-rot-3d-th compiler=gnu
-ll
-cd MojOutput/
-qsub /home/denis/bec3d/imag.pbs 
-ll
-cat 637834.paradox.ipb.ac.rs.err
-module avail
 module load git/2.9.5
 git pull
 rm *.err
@@ -998,3 +969,32 @@ ll
 cat reald3d-rms.txt
 cat real3d-rms.txt 
 ll
+showq
+qdel 638485
+module load git/2.9.5 
+git add .
+git commit -m "LASDLASD"
+git pull
+cd bec3d/
+git add .
+git commit -m "aksfaskmfmaskfas"
+git pull
+module load git/2.9.5 
+cd bec3d/
+cat Par.py
+cat par2.py
+cd MojOutput/
+ll
+rm *.err
+rm *.out
+qsub /home/denis/bec3d/job2.py 
+ll
+module list
+ll
+cat real3d-rms.txt 
+ll
+cat 638486.paradox.ipb.ac.rs.out
+git pull
+git add .
+git commit -m "KAKKSDA"
+git pull
