@@ -7,10 +7,16 @@
 
 # hlsearch on (H) or off (h):
 ~H
+# Last Search Pattern:
+~Msle0~/\<amp_x\>
+
 # Command Line History (newest to oldest):
 :q
+:wq
+:Q
 
 # Search String History (newest to oldest):
+? \<amp_x\>
 
 # Expression History (newest to oldest):
 
@@ -21,21 +27,79 @@
 # Registers:
 
 # File marks:
-'0  1  0  ~/bec3d/MojOutput/638067.paradox.ipb.ac.rs.err
-'1  146  0  ~/bec3d/Par.py
+'0  146  0  ~/bec3d/Par.py
+'1  147  0  ~/bec3d/Par.py
+'2  1  0  ~/bec3d/MojOutput/638067.paradox.ipb.ac.rs.err
+'3  143  0  ~/bec3d/Par.py
 
 # Jumplist (newest first):
+-'  146  0  ~/bec3d/Par.py
+-'  147  0  ~/bec3d/Par.py
+-'  141  36  ~/bec3d/Par.py
+-'  143  4  ~/bec3d/Par.py
+-'  1  0  ~/bec3d/MojOutput/638067.paradox.ipb.ac.rs.err
+-'  1  0  ~/bec3d/Par.py
+-'  1  0  ~/bec3d/MojOutput/638067.paradox.ipb.ac.rs.err
+-'  1  0  ~/bec3d/MojOutput/638067.paradox.ipb.ac.rs.err
+-'  1  0  ~/bec3d/MojOutput/638067.paradox.ipb.ac.rs.err
+-'  151  0  ~/bec3d/Par.py
+-'  1  0  ~/bec3d/MojOutput/638067.paradox.ipb.ac.rs.err
+-'  1  0  ~/bec3d/MojOutput/638067.paradox.ipb.ac.rs.err
+-'  1  0  ~/bec3d/MojOutput/638067.paradox.ipb.ac.rs.err
 -'  1  0  ~/bec3d/MojOutput/638067.paradox.ipb.ac.rs.err
 -'  146  0  ~/bec3d/Par.py
+-'  147  0  ~/bec3d/Par.py
+-'  141  36  ~/bec3d/Par.py
+-'  143  4  ~/bec3d/Par.py
+-'  1  0  ~/bec3d/MojOutput/638067.paradox.ipb.ac.rs.err
 -'  1  0  ~/bec3d/Par.py
+-'  1  0  ~/bec3d/MojOutput/638067.paradox.ipb.ac.rs.err
+-'  1  0  ~/bec3d/MojOutput/638067.paradox.ipb.ac.rs.err
+-'  1  0  ~/bec3d/MojOutput/638067.paradox.ipb.ac.rs.err
+-'  151  0  ~/bec3d/Par.py
+-'  1  0  ~/bec3d/MojOutput/638067.paradox.ipb.ac.rs.err
+-'  1  0  ~/bec3d/MojOutput/638067.paradox.ipb.ac.rs.err
+-'  1  0  ~/bec3d/MojOutput/638067.paradox.ipb.ac.rs.err
+-'  1  0  ~/bec3d/MojOutput/638067.paradox.ipb.ac.rs.err
 -'  146  0  ~/bec3d/Par.py
+-'  147  0  ~/bec3d/Par.py
+-'  141  36  ~/bec3d/Par.py
+-'  143  4  ~/bec3d/Par.py
+-'  1  0  ~/bec3d/MojOutput/638067.paradox.ipb.ac.rs.err
 -'  1  0  ~/bec3d/Par.py
+-'  1  0  ~/bec3d/MojOutput/638067.paradox.ipb.ac.rs.err
+-'  1  0  ~/bec3d/MojOutput/638067.paradox.ipb.ac.rs.err
+-'  1  0  ~/bec3d/MojOutput/638067.paradox.ipb.ac.rs.err
+-'  151  0  ~/bec3d/Par.py
+-'  1  0  ~/bec3d/MojOutput/638067.paradox.ipb.ac.rs.err
+-'  1  0  ~/bec3d/MojOutput/638067.paradox.ipb.ac.rs.err
+-'  1  0  ~/bec3d/MojOutput/638067.paradox.ipb.ac.rs.err
+-'  1  0  ~/bec3d/MojOutput/638067.paradox.ipb.ac.rs.err
+-'  146  0  ~/bec3d/Par.py
+-'  147  0  ~/bec3d/Par.py
+-'  141  36  ~/bec3d/Par.py
+-'  143  4  ~/bec3d/Par.py
+-'  1  0  ~/bec3d/MojOutput/638067.paradox.ipb.ac.rs.err
+-'  1  0  ~/bec3d/Par.py
+-'  1  0  ~/bec3d/MojOutput/638067.paradox.ipb.ac.rs.err
+-'  1  0  ~/bec3d/MojOutput/638067.paradox.ipb.ac.rs.err
+-'  1  0  ~/bec3d/MojOutput/638067.paradox.ipb.ac.rs.err
+-'  151  0  ~/bec3d/Par.py
+-'  1  0  ~/bec3d/MojOutput/638067.paradox.ipb.ac.rs.err
+-'  1  0  ~/bec3d/MojOutput/638067.paradox.ipb.ac.rs.err
+-'  1  0  ~/bec3d/MojOutput/638067.paradox.ipb.ac.rs.err
+-'  1  0  ~/bec3d/MojOutput/638067.paradox.ipb.ac.rs.err
 
 # History of marks within files (newest to oldest):
-
-> ~/bec3d/MojOutput/638067.paradox.ipb.ac.rs.err
-	"	1	0
 
 > ~/bec3d/Par.py
 	"	146	0
 	^	146	0
+	.	146	0
+	+	142	0
+	+	129	0
+	+	146	6
+	+	146	0
+
+> ~/bec3d/MojOutput/638067.paradox.ipb.ac.rs.err
+	"	1	0

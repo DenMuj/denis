@@ -1,488 +1,3 @@
-module load git/2.9.5
-git pull
-rm *.err
-rm *.out
-qsub /home/denis/bec3d/imag.pbs 
-ll
-cat 637835.paradox.ipb.ac.rs.err
-rm *.out
-rm *.err
-cd ..
-ll
-rm *.o
-ll
-rm bec-gp-rot-3d-th
-ll
-make bec-gp-rot-3d-th 
-ll
-cd MojOutput/
-qsub /home/denis/bec3d/imag.pbs 
-ll
-cat 637836.paradox.ipb.ac.rs.err
-cd bec3d/
-module load git/2.9.5 
-git pull
-rm /input/real3d-input
-rm ./input/real3d-input
-git pull
-cd input
-ll
-cd ..
-cd MojOutput/
-rm *.out
-rm *.err
-qsub /home/denis/bec3d/job.pbs 
-ll
-cat 637843.paradox.ipb.ac.rs.err
-rm *.out
-rm *.err
-git pull
-qsub /home/denis/bec3d/job.pbs 
-ll
-cat 637844.paradox.ipb.ac.rs.err
-module avail
-git pull
-rm *.out
-rm *.err
-qsub /home/denis/bec3d/job.pbs 
-ll
-cat 637845.paradox.ipb.ac.rs.err
-pip install scipy
-rm *.out
-rm *.err
-git pull
-ll
-qsub /home/denis/bec3d/job.pbs 
-ll
-rm *.err
-rm *.out
-git pull
-qsub /home/denis/bec3d/job.pbs 
-ll
-showq
-ll
-cat real3d-rms.txt
-showq
-cat real3d-rms.txt
-qdel 637847
-git pull
-rm *.out
-rm *.err
-qsub /home/denis/bec3d/job.pbs 
-ll
-cat real3d-rms.txt 
-ll
-cat 637848.paradox.ipb.ac.rs.out
-cd ..
-git pull
-rm ./input/real3d-input 
-git pull
-cd MojOutput/
-rm *.out
-rm *.err
-qsub /home/denis/bec3d/job.pbs 
-ll
-cat real3d-rms.txt 
-showq
-qdel 637849
-cd bec3d/
-module load git/2.9.5 
-module load python/3.6.5 
-pip install matplotlib
-git pull
-cd MojOutput/
-rm *.err
-rm *.out
-ll
-git pull
-qsub /home/denis/bec3d/job.pbs 
-ll
-cd bec3d/
-qstat -au denis
-showq
-cat MojOutput/real3d-rms.txt 
-nproc
-mpstat
-showq
-top
-mpstat
-cat MojOutput/real3d-rms.txt 
-cd MojOutput/
-cd bec3d/
-cd MojOutput/
-cat real3d-rms.txt
-ll
-cat 637842.paradox.ipb.ac.rs.out
-git pull
-git add .
-git commit -m "FPS"
-git push
-cdc bec3d/
-cd bec3d/
-cd MojOutput/
-ll
-cat 637850.paradox.ipb.ac.rs.out
-module load git/2.9.5 
-git pull
-showq
-qsub /home/denis/bec3d/job.pbs 
-ll
-637854.paradox.ipb.ac.rs.err
-cat 637854.paradox.ipb.ac.rs.err
-rm *.err
-rm *.out
-git pull
-qsub /home/denis/bec3d/job.pbs 
-ll
-showq
-ll
-cat real3d-rms.txt 
-cd bec3d/
-cd MojOutput/
-showq
-qdel 637855
-showq
-ll
-rm *.err
-rm *.out
-git pull
-qsub /home/denis/bec3d/job.pbs 
-ll
-cat real3d-rms.txt 
-cd bec3d/
-cd MojOutput/
-ll
-cat real3d-rms.txt 
-showq
-cd bec3d/
-cd MojOutput/
-ll
-cat real3d-rms.txt 
-showq
-cd bec3d/
-cd MojOutput/
-ll
-cat real3d-rms.txt 
-showq
-cd bec3d/
-cd MojOutput/
-cat real3d-rms.txt 
-showq
-ll
-module avail
-module load python/3.6.5
-python --version
-module purge
-module load anaconda/3-5.1.0
-module list
-jupyter lab
-module load anaconda/3-5.1.0
-conda search
-module list
-module load anaconda/2-5.1.0 
-conda search SciPy
-module load git/2.9.5 
-module avail
-git pull
-cd bec3d/
-git pull
-qsub anac.pbs
-ll
-showq
-ll
-showq
-ll
-qdel 637857
-rm anac.pbs 
-showq
-cd bec3d/
-cd MojOutput/
-ll
-rm *.err
-rm *.out
-ll
-module load git/2.9.5 
-git add . 
-git commit -m "Moje"
-car real3d-rms.txt 
-cat real3d-rms.txt 
-cd bec3d/
-cd MojOutput/
-cd plots/
-ll
-fer my_plot.png
-feh my_plot.png
-jp2a my_plot.png
-cd bec3d/MojOutput/
-ll
-cd bec3d/MojOutput/
-ll
-cat real3d-rms.txt 
-showq
-cd bec3d/
-cd MojOutput/
-ll
-cat real3d-rms.txt 
-showq
-module avail
-module load git/2.9.5 
-cd ..
-git pull
-cd MojOutput/
-git pull
-qsub anac.pbs
-qsub /home/denis/bec3d/anac.pbs
-ll
-cat 637858.paradox.ipb.ac.rs.err
-git pull
-rm *.err
-rm *.out
-qsub /home/denis/bec3d/anac.pbs
-ll
-showq
-ll
-qdel 637859
-showq
-git pull
-ll
-rm *.err
-rm *.out
-qsub /home/denis/bec3d/anac.pbs
-ll
-cat real3d-rms.txt 
-ll
-showq
-ll
-l
-ll
-showq
-qdel 637860
-ll
-rm *.err
-rm *.out
-git pull
-qsub /home/denis/bec3d/anac.pbs
-ll
-top
-ll
-cd ..
-ll
-rm *.err
-rm *.out
-cd MojOutput/
-ll
-showq
-ll
-cat 637861.paradox.ipb.ac.rs.err
-ll
-rm *.err
-rm *.out
-git pull
-rm /home/denis/bec3d/ana.py 
-git pull
-qsub /home/denis/bec3d/anac.pbs
-ll
-cat 637862.paradox.ipb.ac.rs.err
-git pull
-rm /home/denis/bec3d/ana.py 
-git pull
-rm *.err
-rm *.out
-qsub /home/denis/bec3d/anac.pbs
-ll
-cd plots/
-ll
-cd ..
-cat /home/denis/bec3d/input/real3d-input 
-cd bec3d/MojOutput/
-ll
-car real3d-rms.txt 
-cat real3d-rms.txt 
-cat /home/denis/bec3d/input/real3d-input 
-cd bec3d/MojOutput/
-ll
-cat 637856.paradox.ipb.ac.rs.out
-showq
-module avail
-showq
-ll
-cd bec3d/
-cd ..
-cd bin2vtk/
-ll
-cd bin2
-cd bin2vtk
-ll
-cd bin2vtk_xy-aho.c
-cat bin2vtk_xy-aho.c
-ll
-cat visit_writer.c
-cat bin2vtk_xy-aho.c
-showq
-module load git/2.9.5 
-cd bec3d/
-git pull
-cd bec3d/
-module load git/2.9.5 
-git pull
-cd bec3d/
-module load git/2.9.5 
-git add .
-git commit -m "Glatka"
-git pull
-cat Par.py
-cd MojOutput/
-qsub /home/denis/bec3d/job.pbs 
-ll
-rm *.err
-rm *.out
-showq
-qstat 637904
-qstat -f  637904
-qstat -f 637809
-qstat -f 637851
-qstat -f 638015
-qstat -f 637757
-qstat -f 637411
-qstat -f 637805
-qstat -f 637766
-showq
-qdel 637999
-cd bec3d/MojOutput/
-ll
-qsub /home/denis/bec3d/job.pbs 
-ll
-showq
-qstat -f 637974
-showq
-module load python/3.6.5 
-pip --version
-pip list
-module purge
-module load anaconda/3-5.1.0 
-pip --version
-python --version
-pip list
-pytorch --version
-tensorflow --version
-showq
-cd bec3d/MojOutput/
-ll
-cat 638027.paradox.ipb.ac.rs.err
-rm *.err
-rm *.out
-module avail
-c++ -version
-ls /usr/include
-cd bec3d/MojOutput/
-qsub /home/denis/bec3d/job.pbs 
-ll
-showq
-ll
-showq
-ll
-showq
-ll
-showq
-ll
-cat 638066.paradox.ipb.ac.rs.err
-module load anaconda/3-5.1.0 
-scipy --version
-pip list
-pip list
-module load anaconda/3-5.1.0 
-pip upgrade scipy
-pip install scipy
-module purge
-module load python/3.6.5 
-pip list
-module purge
-module avail
-module load python/3.9.1 
-pip list
-module purge
-module load anaconda/3-5.1.0 
-pip list
-pip install --upgrade scipy
-pip list
-module load anaconda/3-5.1.0 
-conda list
-showq
-history
-showq
-pwd
-ls
-cd bec3d/
-ls -la
-cat Par.py
-vim Par.py
-ls -la
-cd ..
-pwd
-cd ..
-ls -la
-showq
-pwd
-cd julija
-ls -la
-cd demo034
-ls -la
-clear
-ls -lah
-cd denis
-ls -lah
-cd bec3d/
-ls -lah
-ls -la
-cd  MojOutput
-ls -la
-ls -lah
-showq
-uname -a
-free -h
-lscpu
-free -h
-sudo dmidecode --type memory
-cd bec3d/MojOutput/
-ll
-rm *.err
-rm *.out
-ll
-subq /home/denis/bec3d/job.pbs 
-qsub /home/denis/bec3d/job.pbs 
-showq
-showq 
-showq  | grep denis
-showq | grep 'May 20'
-ll
-code -r 638067.paradox.ipb.ac.rs.err
-cat [denis@paradox MojOutput]$ 
-[denis@paradox MojOutput]$ code -r 638067.paradox.ipb.ac.rs.err
--bash: code: command not found
-cat 638067.paradox.ipb.ac.rs.err
-vim 638067.paradox.ipb.ac.rs.err
-show scipy
-which scipy
-which numpy
-pip list numpy
-pip list | grep scipy
-pip show scipy
-python --version
-cd ..
-pwd
-ls -la\
-ls -la
-pip show venv
-pip list | grep venv
-ls -la
-pip show virtualenv
-which python3
-ls -la
-module avail
-module load python/3.6.5 
-\\ls -la
-ls -la
-pip list
 showq
 qstat -f 637812
 showq
@@ -998,3 +513,488 @@ git pull
 git add .
 git commit -m "KAKKSDA"
 git pull
+cd bec3d/input/real3d-input 
+cat bec3d/input/real3d-input 
+git add .
+git commit -m "WWEQWEQ"
+git pull
+module load git/2.9.5 
+git pull
+git add .
+git commit -m "AsDASDw"
+git pull
+cd bec3d/input/real3d-input 
+cd bec3d/
+git add .
+git commit -m "ASDASDWwq"
+git pull
+cd bec3d/
+cd MojOutput/
+ll
+rm *.err
+rm *.out
+git pull
+git add .
+git commit -m "WCHANGES"
+git pull
+cat /home/denis/bec3d/input/real3d-input 
+git pull
+module load git/2.9.5 
+git pull
+cat /home/denis/bec3d/input/real3d-input 
+nano /home/denis/bec3d/input/real3d-input 
+cat /home/denis/bec3d/input/real3d-input 
+nano /home/denis/bec3d/par2.py 
+cat /home/denis/bec3d/par2.py 
+nano /home/denis/bec3d/Par.py 
+qsub /home/denis/bec3d/job2.py 
+ll
+cat real3d-rms.txt 
+ll
+cat real3d-rms.txt 
+cd bec3d/MojOutput/
+ll
+showq
+qdel 638487
+rm *.err
+rm *.out
+cat /home/denis/bec3d/Par.py
+qsub /home/denis/bec3d/job.pbs 
+ll
+showq
+cat real3d-rms.txt 
+cat /home/denis/bec3d/Par.py 
+showq
+ll
+source ./env/bin/activate
+python --version
+import ssl
+which openssl
+import ssl
+openssl --version
+showq
+cd bec3d/
+module load git/2.9.5 
+git add .
+git commit -m "OPSCIP"
+git pull
+cd bec3d/MojOutput/
+git pull
+git add .
+git commit -m "AWWWQQ"
+git pull
+cd ..
+cat par2.py
+git pull
+cd MojOutput/
+qsub /home/denis/bec3d/job2.py 
+ll
+rm 638488.paradox.ipb.ac.rs.out
+rm 638488.paradox.ipb.ac.rs.err
+ll
+showq
+cd bec3d/MojOutput/
+ll
+cat 638488.paradox.ipb.ac.rs.out
+cd bec3d/MojOutput/
+ll
+cd bec3d/MojOutput/
+ll
+cat real3d-rms.txt 
+showq
+cat /home/denis/bec3d/input/real3d-input 
+cat /home/denis/bec3d/MojOutput/real3d-rms.txt 
+cat /home/denis/bec3d/Par.py 
+cd /home/denis/bec3d/MojOutput/
+qsub /home/denis/bec3d/job.pbs 
+qdel 638575
+ll
+rm 638575.paradox.ipb.ac.rs.err
+rm 638575.paradox.ipb.ac.rs.out
+git push
+git pull
+qsub /home/denis/bec3d/job.pbs 
+ll
+showq
+cd /home/denis/bec3d/MOj
+cd /home/denis/bec3d/MojOutput/
+ll
+cat 638523.paradox.ipb.ac.rs.out
+showq
+cd /home/denis/bec3d/MojOutput/
+ll
+showq
+cat /home/denis/bec3d/MojOutput/real3d-rms.txt 
+showq
+cd /home/denis/bec3d/MojOutput/
+ll
+cat 638576.paradox.ipb.ac.rs.out
+rm 638576.paradox.ipb.ac.rs.out
+rm 638576.paradox.ipb.ac.rs.err
+cd bec3d/
+module load git/2.9.5 
+git pull
+cd bec3d/MojOutput/
+module load git/2.9.5 
+git pull
+cd bec3d
+cat Par.py 
+cd MojOutput/
+qsub /home/denis/bec3d/job.pbs 
+ll
+showq
+qstat -f 637996
+cd bec3d/MojOutput/
+ll
+car /home/denis/bec3d/input/real3d-input 
+cat /home/denis/bec3d/input/real3d-input 
+showq
+qstat -f 638932
+cd bec3d/MojOutput/
+module load git/2.9.5 
+git add .
+git commit -m "SA AMPLTIR"
+git pull
+cd bec3d/
+git pull
+git add .
+git commit -a
+cd bec3d/MojOutput/
+module load git/2.9.5 
+git add .
+git commit -m "AS@2r2A"
+git push
+git pull
+cd bec3d/MojOutput/
+git status
+git commit -m "ADSASwtw"
+git status
+git push origin master
+git status
+git pill
+git pull
+cat /home/denis/bec3d/Par.py 
+qsub /home/denis/bec3d/job.pbs 
+ll
+kk
+ll
+showq
+ll
+cat 638985.paradox.ipb.ac.rs.err
+rm *.err
+rm *.out
+qsub /home/denis/bec3d/job.pbs 
+ll
+;;
+ll
+cd bec3d/MojOutput/
+ll
+showq
+module load git/2.9.5 
+git pull
+qsub /home/denis/bec3d/job.pbs 
+ll
+showq
+ll
+rm *.err
+rm *.out
+git pull
+qsub /home/denis/bec3d/job.pbs 
+ll
+cat /home/denis/bec3d/Par.py 
+ll
+showq
+ll
+showq
+ll
+showq
+ll
+showq
+qdel 638988
+ll
+rm *.err
+rm *.out
+git pull
+qsub /home/denis/bec3d/job.pbs 
+ll
+cd bec3d/MojOutput/
+ll
+cat 638848.paradox.ipb.ac.rs.out
+ce bec3d/MojOutput/
+cd bec3d/MojOutput/
+showq
+vi
+cd bec3d/MojOutput/o
+cd bec3d/MojOutput/
+ll
+cat638989.paradox.ipb.ac.rs.err
+cat 638989.paradox.ipb.ac.rs.err
+vi /home/denis/bec3d/Par.py 
+cat /home/denis/bec3d/Par.py 
+vi /home/denis/bec3d/Par.py 
+cat /home/denis/bec3d/Par.py 
+cd bec3d/
+module load git/2.9.5 
+git add .
+git commit -m "PARAGON"
+git status
+git push
+git status
+cd MojOutput/
+ll
+rm *.err
+rm *.put
+rm *.out
+qsub /home/denis/bec3d/job.pbs 
+ll
+l
+ll
+nvim
+ll
+nvi
+vi
+vim
+ll
+showq
+cd bec3d/MojOutput/
+ll
+showq
+cd bec3d/MojOutput/
+ll
+module load git/2.9.5
+git pull
+ll
+cat /home/denis/bec3d/Par.py 
+qsub /home/denis/bec3d/job.pbs 
+ll
+639011.paradox.ipb.ac.rs.out
+cat 639011.paradox.ipb.ac.rs.out
+ll
+rm 639011.paradox.ipb.ac.rs.err
+showq
+ll
+cd bec3d/MojOutput/
+ll
+cat real3d-rms.txt 
+ll
+cd bec3d/MojOutput/
+xeyes
+cd bec3d/MojOutput/
+xeyes
+cd bec3d/MojOutput/
+xeyes
+cd plots/
+ll
+display plot_40.png 
+cd bec3d/MojOutput/plots/
+ll
+display plot_40.png 
+cd bec3d/MojOutput/plots/
+display plot_40.png 
+cd bec3d/MojOutput/plots/
+display plot_40.png 
+cd bec3d/MojOutput/plots/
+display plot_40.png 
+cd bec3d/MojOutput/plots/
+display plot_40.png 
+cd bec3d/MojOutput/plots/
+display plot_40.png 
+cd bec3d/MojOutput/plots/
+display plot_40.png 
+cd bec3d/MojOutput/plots/
+display plot_40.png 
+cd bec3d/MojOutput/plots/
+display plot_40.png 
+cd bec3d/MojOutput/plots/
+display plot_40.png 
+cd bec3d/MojOutput/plots/
+display plot_40.png 
+cd bec3d/MojOutput/plots/
+display plot_40.png 
+cd bec3d/MojOutput/
+cd bec3d/MojOutput/plots/
+cd plots/
+display plot_40.png 
+echo $DISPLAY
+cd ..
+ll
+cd bec3d/MojOutput/plots/
+display plot_40.png 
+cd bec3d/MojOutput/plots/
+display plot_40.png 
+cd bec3d/MojOutput/plots/
+display plot_40.png 
+cd bec3d/MojOutput/plots/
+ll
+display plot_41.png 
+cd bec3d/
+module load git/2.9.5 
+git status
+showq
+cd MojOutput/plots/
+ll
+cd ..
+git add .
+git commit -m "PLOTS"
+git push
+ll
+cd MojOutput/plots/
+cd bec3d/MojOutput/plots/
+ll
+display plot_42.png 
+display plot_42.png,plot_41.plot 
+display plot_41.png 
+display plot_40.png 
+display plot_42.png 
+cd bec3d/MojOutput/plots/
+ll
+display plot_40.png 
+cd bec3d/MojOutput/plots/
+display plot_43.png 
+display plot_44.png 
+display plot_45.png 
+display plot_46.png 
+display plot_47.png 
+display plot_48.png 
+display plot_49.png 
+display plot_50.png 
+display plot_51.png 
+:ll
+ll
+cd bec3d/MojOutput/plots/
+ll
+showq
+top
+cd bec3d/MojOutput/
+ll
+cd bec3d/MojOutput/
+ll
+cat real3d-rms.txt 
+cd bec3d/MojOutput/
+ll
+cat real3d-rms.txt 
+cd plots/
+ll
+cd ..
+ll
+cat real3d-rms.txt 
+ll
+cat 639019.paradox.ipb.ac.rs.out
+cd bec3d/MojOutput/
+module load git/2.9.5 
+git add .
+git commit -m "SLIKEEE"
+git push
+showq
+cd bec3d/
+module load git/2.9.5 
+git status
+git pull
+cd MojOutput/
+qsub /home/denis/bec3d/job.pbs 
+ll
+showq
+ll
+cd bec3d/MojOutput/
+ll
+cat 639370.paradox.ipb.ac.rs.out
+cd plots/
+ll
+cd ..
+git add .
+git commit -m "ASLFWWW"
+git push
+cd MojOutput/
+ll
+cat 639370.paradox.ipb.ac.rs.out
+showq
+qstat -f 639601
+showq
+qstat -f 645158
+qstat -f 645063
+showq
+ls -la
+joe .bash_profile 
+exit
+module list
+ll
+tar -xvzf denis.tar.gz 
+ll
+cd denis
+ll
+cat makefile 
+make imre3d-ms-ddiX-rot-mpi-qf-grad-mu-self-Q35s
+ll
+rm *.o
+ll
+cd ..
+ll
+mv denis DBEC
+ll
+mkdir test
+cd test/
+joe imag3d.pbs
+ll
+joe input 
+rm *~
+ll
+showq
+qsub imag3d.pbs 
+ll
+cat imag3d-mu.txt 
+cat imag3d-out.txt 
+cat imag3d-rms.txt 
+cat imag3d-mu.txt 
+cat imag3d-rms.txt 
+joe ../.bash_profile
+. ../.bash_profile
+bin2vtk_yz-aho 
+bin2vtk_yz-aho imag3d-den-niter 10000 1 256 256 256 1
+cat imag3d-mu.txt 
+bin2vtk_yz-aho imag3d-den-niter 10000 1 256 256 256 1
+bin2vtk_xy-aho imag3d-den-niter 10000 1 256 256 256 1
+cat imag3d-rms.txt 
+showq
+qdel 649158
+ll
+ll 6*
+rm 6* *bin *txt *vtk
+ll
+joe input 
+rm *~
+qsub imag3d.pbs 
+cat imag3d-out.txt 
+cat imag3d-rms.txt 
+showq
+qstat -f 649167
+ssh gn021
+su -
+cat imag3d-rms.txt 
+bin2vtk_xy-aho imag3d-den-niter 10000 1 256 256 256 1
+bin2vtk_yz-aho imag3d-den-niter 10000 1 256 256 256 1
+bin2vtk_xy-aho imag3d-den-niter 10000 1 256 256 256 1
+showq
+qdel 649167
+ll
+showq
+ll 6*
+showq
+ls -la
+rm -r denis.tar.gz 
+ls -la
+cd test
+ll
+ls -lh
+git status
+module avail
+module load git/2.9.5 
+cd test
+git add .
+git push
+cd ..
+git add .
+git push
+git push test
+ll
+git status
+git push

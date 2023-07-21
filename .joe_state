@@ -1,0 +1,53 @@
+# JOE state file v1.0
+search
+	backwards 0
+	ignore 0
+	replace 0
+	block_restrict 0
+done
+macros
+done
+files
+	".bash_profile\n"
+	"imag3d.pbs\n"
+	"input\n"
+	"../.bash_profile\n"
+	"input\n"
+done
+find
+done
+replace
+done
+run
+done
+build
+done
+grep
+done
+cmd
+done
+math
+done
+yank
+	"../../"
+	"1"
+	"1"
+	"7"
+	"75"
+	"10"
+	"03"
+	"2"
+	"2"
+	"2"
+	"2"
+	"100"
+	"0.5"
+	"5"
+	"5"
+done
+file_pos
+	16 ".bash_profile"
+	15 "imag3d.pbs"
+	9 "../.bash_profile"
+	32 "input"
+done
