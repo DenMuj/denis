@@ -1,0 +1,16 @@
+#!/bin/bash
+#PBS -q standard
+#PBS -l nodes=8:ppn=16
+#PBS -l walltime=200:00:00
+#PBS -e ${PBS_JOBID}.err
+#PBS -o ${PBS_JOBID}.out
+export OMP_NUM_THREADS=16
+
+cd $PBS_O_WORKDIR
+
+module load intel/2019
+module load openmpi/4.0.5-intel
+module load fftw3/intel/3.3.8-openmpi4
+
+mpirun --mca pml ucx --np 8 --map-by ppr:1:node --bind-to none imre3d-ms-ddiX-rot-mpi-qf-grad-muend-self-K3-Nad-Vx-cylcut-sigma -i input-real
+   
