@@ -1,0 +1,42 @@
+
+**********************************************
+Imaginary-time propagation in 3D, OPTION = 2
+MPI nodes = 8, OMP threads = 16, cores = 128
+**********************************************
+
+Interactions
+Contact: Natoms = 1.00000000000e+04, as = 1.000000e+02 * a0, G = 1.072885e+03, G * par = 2.145770e+03
+Three-body: K3 =  0.000000e+00, g3 = 0.000000e+00
+Regular DDI: add = 1.326070e+02 * a0, GD = 3.396495e+02, GD * par = 6.792990e+02, edd = 1.326070e+00
+     Dipolar cutoff Rcut = 1.840000e+01, Lcut = 3.700000e+02
+
+QF = 0
+
+GRAD = 0
+
+Trap parameters:
+GAMMA = 4.361000e-02, NU = 1.000000e+00, LAMBDA = 1.000000e+00
+Parameters of rotation: OMEGA = 0.000000e+00, OMEGA * par = 0.000000e+00
+
+Space discretization: NX = 128, NY = 128, NZ = 128
+                      DX = 5.781250e+00, DY = 2.875000e-01, DZ = 2.875000e-01
+      Unit of length: aho = 6.198090e-07 m
+
+Time discretization: NITER = 1000000 (NSNAP = 10000)
+                     DT = 4.132813e-02
+
+Initial state: Gaussian
+               SX = 3.700000e+01, SY = 1.840000e+00, SZ = 1.840000e+00
+ADD_VORTICES = 0, ADD_RANDOM_PHASE = 0
+
+
+MUREL = 1.000000e-06, MUEND=0.000000e+00
+
+-------------------------------------------------------------------
+Snap      <r>            <x>            <y>            <z>
+-------------------------------------------------------------------
+0         3.709139e+01   3.700000e+01   1.840000e+00   1.840000e+00  
+1         3.183174e-01   1.429728e-02   2.248572e-01   2.248572e-01  
+2         3.183174e-01   1.429728e-02   2.248572e-01   2.248572e-01  
+-------------------------------------------------------------------
+
